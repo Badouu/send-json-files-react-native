@@ -11,7 +11,7 @@ Following the following error: <Error: Network Error> encountered when sending J
 
 ## Modification
 
-You need to modify the ReactNativeFlipper.java file in the android\appsrc\debug\java\com\<project_name>\ReactNativeFlipper.java directory by commenting the line as shown in the example.
+You need to modify the ReactNativeFlipper.java file in the android\app\src\debug\java\com\project_name directory by commenting the line as shown in the example.
 
 ```java
 NetworkingModule.setCustomClientBuilder(
